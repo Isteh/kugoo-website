@@ -1,0 +1,27 @@
+.searchWrapper {
+  border-radius: 5px;
+  border: 1.5px solid #6f73ee;
+  min-height: 40px;
+
+  display: flex;
+
+  > select {
+    margin: 4px;
+  }
+
+  > button{
+    border: none;
+    background-color: var(--accent-theme-color);
+    width: 40px;
+    cursor: pointer;
+
+    flex-shrink: 0;
+  }
+}
+
+.searchSelect {
+  > div {
+    border: none;
+    color: inherit;
+  }
+}

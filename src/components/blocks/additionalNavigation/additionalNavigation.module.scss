@@ -1,0 +1,18 @@
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+    height: 40px;
+
+    >li {
+    
+    > .link{
+        padding: 10px 21px;
+    }
+    &:first-of-type{
+        > .link{
+            padding-left: 0;
+        }
+    }
+    }
+}

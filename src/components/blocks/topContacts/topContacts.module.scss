@@ -1,0 +1,40 @@
+.linksContainer {
+  display: flex;
+  font-size: 12px;
+
+  height: 39px;
+  > li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    > .link {
+      padding: 11px 15px;
+    }
+    
+    &:first-of-type {
+      > .link {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+.listSocialLinks {
+  margin-right: auto;
+  > ul {
+    display: flex;
+
+    > li {
+      list-style-type: none;
+
+      > .link {
+        padding: 13.5px 5px;
+      }
+    }
+  }
+}
+
+.circle {
+  margin-left: 9px;
+}

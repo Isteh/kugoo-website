@@ -1,0 +1,885 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+      "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": false,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": true,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    }
+    ,
+    {
+      "id": 3,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": false,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": true,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": false,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": true,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": false,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": true,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": true,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": false,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": true,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": false,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": true,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": false,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": true,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": false,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": true,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": false,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": true,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Kugoo Kirin M4",
+      "type": "electricScooters",
+      "vendorCode": 2200000000026,
+       "mainImg": "https://kmll64isusjhkp56.public.blob.vercel-storage.com/1-NScFPhkOggGAmwGJk3ONDecIHIMhCq.png",
+      "additionalImgs": [
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/2-ttUGIa5wZCxzJdNhZBm83Wz4WRT3S8.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/3-ZPlwhqf1IrEqoUjjqI08aO3iclH85g.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/4-YRK2U3R4yX3n1SSgzszxmgbyamM3zR.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/5-zJVj2ttUTgFnOxVbSf7IpLmoxqO7U2.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/6-VHV0OLFvM5HydzAzfTRtCZY8kZjeLT.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/7-sE16YCHcgBB91qCPHnP7VbOJA9oMZf.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/8-dGfImai2OxvssbB8DkoANuwBrPHc2u.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/9-KsUwevaVMBdcnuHoPcePuREt4eI5ht.png",
+        "https://kmll64isusjhkp56.public.blob.vercel-storage.com/10-7V6B0bif8NXqNLYU49WNgymOzPnK2h.png"
+      ],
+      "characteristics": {
+        "charge": 2000,
+        "power": 1.2,
+        "speed": 60,
+        "powerTime": 5
+      },
+      "watchCount": 350,
+      "buyCount": 196,
+      "isNew": true,
+      "isBestseller": false,
+      "avaliable": true,
+      "price": {
+        "old": 39000,
+        "actual": 29900
+      },
+      "complectation": [
+        { "name": "Версия MAX", "value": 3000 },
+        { "name": "VIP-версия", "value": 7000 }
+      ],
+      "tiresType": { "isStudded": true, "isOffroad": true },
+      "guarantee": [{ "name": "Расширенная 2 года", "value": 2990 }],
+      "additionalServices": [
+        { "name": "Настройка", "value": 1520 },
+        { "name": "Гидроизоляция", "value": 3850 },
+        { "name": "Гидроизоляция и настройка", "value": 3409, "discount": 30 }
+      ]
+    }
+  ]
+}

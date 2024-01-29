@@ -1,0 +1,20 @@
+.circle {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  content: '';
+}
+.pink {
+  background-color: #fa6bfd;
+}
+.blue {
+  background-color: var(--accent-theme-color);
+}
+.red {
+  background-color: #f45a5a;
+}
+
+.none{
+  display: none;
+}

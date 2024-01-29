@@ -1,0 +1,152 @@
+.card {
+  max-width: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  align-items: center;
+  position: relative;
+  padding: 0 22px;
+}
+
+.topPanel{
+    font-size: 12px;
+    width: 100%;
+    padding: 10px 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+}
+
+.balanceButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.swiper{
+    width: 211px;
+    padding-top: 20px; 
+    position: relative;
+}
+
+.swiperButton{
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    background-color: transparent;
+    border-radius: 5px;
+    bottom: 74px;
+    left: 0;
+    border: none;
+
+    &:hover{
+        border: 1px solid rgba($color: #000000, $alpha: 0.1);
+    }
+}
+
+.swiperButtonRight{
+    left: auto;
+    right: 0;
+}
+
+.leftArrow{
+    transform: rotate(180deg);
+}
+
+.image{
+  background-image: cover;
+}
+
+.textWrapper,
+.characteristicsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+
+  align-items: center;
+}
+
+.textWrapper {
+  padding: 20px 0;
+  position: relative;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+
+  grid-column: 1/-1;
+}
+
+.characteristicsList {
+  row-gap: 18px;
+  grid-column: 1/-1;
+
+  margin-bottom: 25px;
+  color: var(--Grey-600);
+  font-family: var(--font-roboto);
+
+  > li{ 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.iconButtonsList{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+    >li >.iconButton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        background-color: transparent;
+        border-radius: 20px;
+
+        border: none;
+        &:hover{
+            border: 1px solid rgba($color: #000000, $alpha: 0.1);
+        }
+    }
+}
+
+.button {
+  grid-column: 1/-1;
+  padding: 10px 20px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.link{
+  position: absolute;
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+
+  bottom: 0;
+}

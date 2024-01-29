@@ -1,0 +1,23 @@
+.card {
+  padding: 12px;
+  display: flex;
+
+  align-items: center;
+}
+
+.textWrapper {
+  margin-left: 13px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+.name {
+  font-weight: 500;
+}
+.counter {
+  color: var(--Grey-600);
+  font-size: 10px;
+}

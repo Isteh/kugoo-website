@@ -1,0 +1,32 @@
+.contactWrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+.topPanel{
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 18px;
+
+    margin-right: auto;
+}
+
+.button{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.contactList,
+.adressList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+
+.contactList{
+    margin-bottom: 28px;
+}

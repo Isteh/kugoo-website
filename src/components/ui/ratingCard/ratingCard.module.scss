@@ -1,0 +1,35 @@
+.card {
+  padding: 10px;
+  border-radius: 5px;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 18px;
+}
+
+.yandex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 56px;
+  height: 56px;
+  background-color: #fc3f1d;
+  border-radius: 5px;
+  box-shadow: 0 7px 7.5px -4px rgba(252, 63, 29, 0.5);
+}
+
+.textWrapper{
+    font-size: 12px;
+    color:var(--Grey-600);
+    display: flex;
+    flex-direction: column;
+}
+.rate{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--Black);
+    gap: 5px;
+}
