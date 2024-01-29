@@ -15,7 +15,7 @@ import PowerIcon from "@/public/power.svg"
 import Price from '../price/price';
 import Button from '../button/button';
 import CartIcon from '@/public/shopping_cart_outlined_purple.svg'
-import heartIcon from '@/public/heart_otlined_purple.svg?url'
+import HeartIcon from '@/public/heart_otlined_purple.svg'
 import styles from './productCard.module.scss'
 import SwiperRightArrowIcon from '@/public/product_card_arrow_right.svg'
 import Link from 'next/link';
@@ -92,7 +92,7 @@ const ProductCard: FC<TypeProps> = ({ product, className }) => {
             <Price actualPrice={product.price.actual} oldPrice={product.price.old} />
             <ul className={styles.iconButtonsList}>
                 <li><button className={styles.iconButton}><CartIcon className={styles.cart} /></button></li>
-                <li><button className={styles.iconButton}><Image src={heartIcon} width={20} height={20} alt='В избранное' /></button></li>
+                <li><button className={styles.iconButton}><HeartIcon /></button></li>
             </ul>
             <Button className={styles.button}>Купить в 1 клик</Button>
         </div>
