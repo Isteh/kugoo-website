@@ -1,0 +1,20 @@
+.installments {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 13px 7px 53px;
+
+  border-radius: 5px;
+  color: var(--Grey-600);
+  font-size: 12px;
+
+  background-image: url(/credit_card.jpg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: left 14px top 14px;
+}
+
+.price {
+  font-weight: 500;
+  color: var(--Black);
+  font-size: 14px;
+}

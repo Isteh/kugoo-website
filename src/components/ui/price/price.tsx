@@ -4,14 +4,16 @@ import styles from './price.module.scss'
 type TypeProps = {
     className?: string,
     actualPrice: string | number,
-    oldPrice?: string | number
+    oldPrice?: string | number,
+    size: 'normal' | 'big'
 }
 
-const price: FC<TypeProps> = ({ className, actualPrice, oldPrice }) => {
+const Price: FC<TypeProps> = ({ className, actualPrice, oldPrice, size }) => {
+
     return <div className={`${styles.container} ${className}`}>
         <s className={styles.oldPrice}>{oldPrice} ₽</s>
-        <strong className={styles.actualPrice}>{actualPrice} ₽</strong>
+        <strong className={`${styles.actualPrice} ${styles[size]}`}>{actualPrice} ₽</strong>
     </div>
 }
 
-export default price
+export default Price
