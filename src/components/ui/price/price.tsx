@@ -11,7 +11,7 @@ type TypeProps = {
 const Price: FC<TypeProps> = ({ className, actualPrice, oldPrice, size }) => {
 
     return <div className={`${styles.container} ${className}`}>
-        <s className={styles.oldPrice}>{oldPrice} ₽</s>
+        {oldPrice && <s className={styles.oldPrice}>{oldPrice} ₽</s>}
         <strong className={`${styles.actualPrice} ${styles[size]}`}>{actualPrice} ₽</strong>
     </div>
 }

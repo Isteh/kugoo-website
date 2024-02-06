@@ -1,0 +1,19 @@
+.gallery-with-tubs--sub-swiper {
+  & .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  & .swiper-slide {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+
+    > img {
+      border-radius: 5px;
+    }
+  }
+  & .swiper-slide-thumb-active {
+    border: 1.3px solid var(--Purple);
+  }
+}

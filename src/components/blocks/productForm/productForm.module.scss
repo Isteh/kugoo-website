@@ -37,8 +37,10 @@
     background-color: tomato;
   }
 
-  &:has(input:checked) {
-    background-color: #75d14a;
+  &:has(> input[checked]) {
+    &::after {
+      background-color: #75d14a;
+    }
   }
 }
 
@@ -72,4 +74,14 @@
 
 .radioButtonsList {
   margin-bottom: 60px;
+}
+
+.promotion {
+  margin-bottom: 30px;
+}
+
+.bottomPanel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

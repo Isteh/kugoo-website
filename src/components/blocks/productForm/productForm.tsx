@@ -1,5 +1,5 @@
 import { IProduct } from '@/src/interfaces/product.interface'
-import { FC, FormEvent, FormEventHandler, memo, useCallback, useEffect, useMemo } from 'react'
+import { FC, FormEvent, FormEventHandler, memo, useCallback, useEffect, useMemo, useState } from 'react'
 import Title from '../../ui/title/title'
 import BalanceIcon from '@/public/balance.svg'
 import ShareIcon from '@/public/share.svg'
@@ -11,6 +11,8 @@ import { getDataForCart } from '@/src/utils/getDataForCart/getDataForCart'
 import styles from './productForm.module.scss'
 import Price from '../../ui/price/price'
 import Installments from '../installments/installments'
+import Promotion from '../promotion/promotion'
+import { isNumber } from 'util'
 
 type TypeProps = {
     product: IProduct,
@@ -63,6 +65,9 @@ const colorList = [
 const ProductForm: FC<TypeProps> = ({ className, product }) => {
     const addUserCart = useUserCartStore(state => state.addProduct)
     const usersCart = useUserCartStore(state => state.productsInCartParamethers)
+
+    const [totalPrice, setTotalPrice] = useState(product.price.actual);
+
     if (product) {
         product.complectation && complectationList.splice(1, Infinity, ...product.complectation);
         product.guarantee && guaranteeList.splice(1, Infinity, ...product.guarantee)
@@ -82,7 +87,16 @@ const ProductForm: FC<TypeProps> = ({ className, product }) => {
         alert(`${product.name} успешно добавлен в корзину`)
     }
 
-    return product ? <form name='product-form' onSubmit={formSubmitHandler}>
+    const formChangeHandler: FormEventHandler<HTMLFormElement> = (e) => {
+        const data = new FormData(e.currentTarget);
+        setTotalPrice(() => product.price.actual +
+            Number(data.get('complectation')) +
+            Number(data.get('guarantee')) +
+            Number(data.get('additionalServices')))
+        console.log(totalPrice)
+    }
+
+    return product ? <form name='product-form' onSubmit={formSubmitHandler} onChange={formChangeHandler}>
         <Title className={styles.title} level={1}>{product.name}</Title>
         <input type='hidden' name='id' value={product.id} readOnly />
         <div className={styles.countersInfo}>
@@ -118,8 +132,13 @@ const ProductForm: FC<TypeProps> = ({ className, product }) => {
         <Title className={styles.titleRadioButton} level={3}>Подарочная упаковка </Title>
         <RadioButtonsList className={styles.radioButtonsList} isChoosingColors={true} withPrice={false} items={colorList} nameSection='colorWrapper' />
 
-        <Button type='submit' >Добавить в корзину</Button>
-
+        <Promotion className={styles.promotion} />
+        <div className={styles.bottomPanel}>
+            <span>
+                Итого: <Price size='big' actualPrice={totalPrice} />
+            </span>
+            <Button type='submit' >Добавить в корзину</Button>
+        </div>
     </form >
         :
         <div></div>

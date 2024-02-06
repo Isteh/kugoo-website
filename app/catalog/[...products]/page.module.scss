@@ -4,4 +4,14 @@
   margin: 20px 165px 54px;
 
   justify-content: space-between;
+
+  position: relative;
+}
+
+.marker {
+  position: absolute;
+
+  z-index: 2;
+  top: 10px;
+  left: 10px;
 }

@@ -9,67 +9,68 @@
   padding: 0 22px;
 }
 
-.topPanel{
-    font-size: 12px;
-    width: 100%;
-    padding: 10px 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: transparent;
-    position: absolute;
-    z-index: 2;
+.topPanel {
+  font-size: 12px;
+  width: 100%;
+  padding: 10px 10px 0;
+  display: flex;
+  align-items: flex-start;
+  background-color: transparent;
+  position: absolute;
+  z-index: 2;
 }
 
-.balanceButton{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-  
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
+.balanceButton {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
 }
 
-.swiper{
-    width: 211px;
-    padding-top: 20px; 
-    position: relative;
+.swiper {
+  width: 211px;
+  padding-top: 20px;
+  position: relative;
 }
 
-.swiperButton{
-    width: 40px;
-    height: 40px;
+.swiperButton {
+  width: 40px;
+  height: 40px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    z-index: 3;
-    background-color: transparent;
-    border-radius: 5px;
-    bottom: 74px;
-    left: 0;
-    border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+  background-color: transparent;
+  border-radius: 5px;
+  bottom: 74px;
+  left: 0;
+  border: none;
 
-    &:hover{
-        border: 1px solid rgba($color: #000000, $alpha: 0.1);
-    }
+  &:hover {
+    border: 1px solid
+      rgba($color: #000000, $alpha: 0.1);
+  }
 }
 
-.swiperButtonRight{
-    left: auto;
-    right: 0;
+.swiperButtonRight {
+  left: auto;
+  right: 0;
 }
 
-.leftArrow{
-    transform: rotate(180deg);
+.leftArrow {
+  transform: rotate(180deg);
 }
 
-.image{
+.image {
   background-image: cover;
 }
 
@@ -103,34 +104,35 @@
   color: var(--Grey-600);
   font-family: var(--font-roboto);
 
-  > li{ 
+  > li {
     display: flex;
     align-items: center;
     gap: 10px;
   }
 }
 
-.iconButtonsList{
+.iconButtonsList {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 20px;
+  > li > .iconButton {
     display: flex;
     align-items: center;
-    position: relative;
-    z-index: 2;
-    margin-bottom: 20px;
-    >li >.iconButton{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-        background-color: transparent;
-        border-radius: 20px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 20px;
 
-        border: none;
-        &:hover{
-            border: 1px solid rgba($color: #000000, $alpha: 0.1);
-        }
+    border: none;
+    &:hover {
+      border: 1px solid
+        rgba($color: #000000, $alpha: 0.1);
     }
+  }
 }
 
 .button {
@@ -141,7 +143,7 @@
   z-index: 2;
 }
 
-.link{
+.link {
   position: absolute;
   z-index: 1;
 

@@ -1,6 +1,6 @@
 import { IProduct } from '@/src/interfaces/product.interface'
 import { FC, memo, useEffect, useRef, useState } from 'react'
-import ProductMarker from '../productTag/productMarker'
+import ProductMarker from '../productMarker/productMarker'
 import BalanceIcon from '@/public/balance.svg'
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -40,7 +40,7 @@ const ProductCard: FC<TypeProps> = ({ product, className }) => {
             {(product.isBestseller) ?
                 <ProductMarker type='bestSeller' />
                 :
-                <ProductMarker type='new' />}
+                product.isNew && <ProductMarker type='new' />}
             <button className={styles.balanceButton}> <BalanceIcon /></button>
         </div>
 
@@ -89,7 +89,7 @@ const ProductCard: FC<TypeProps> = ({ product, className }) => {
                 <li><SpeedIcon />{product.characteristics?.speed} км/ч</li>
                 <li><PowerTimeIcon />{product.characteristics?.powerTime} часов</li>
             </ul>
-            <Price actualPrice={product.price.actual} oldPrice={product.price.old} />
+            <Price size='normal' actualPrice={product.price.actual} oldPrice={product.price.old} />
             <ul className={styles.iconButtonsList}>
                 <li><button className={styles.iconButton}><CartIcon className={styles.cart} /></button></li>
                 <li><button className={styles.iconButton}><HeartIcon /></button></li>
