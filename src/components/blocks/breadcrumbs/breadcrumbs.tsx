@@ -2,6 +2,7 @@
 import { useProductStore } from '@/src/stores/Product.store'
 import { HomeOutlined } from '@ant-design/icons'
 import { Breadcrumb } from 'antd'
+import { BreadcrumbItemType, BreadcrumbSeparatorType } from 'antd/es/breadcrumb/Breadcrumb'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { CSSProperties, FC, useMemo } from 'react'
@@ -12,9 +13,9 @@ const pathsTitles = {
     electricScooters: 'Электросамокаты'
 }
 
-function itemRender(item, params, items, paths) {
+function itemRender(item: Partial<BreadcrumbItemType & BreadcrumbSeparatorType>, params: any, items: Partial<BreadcrumbItemType & BreadcrumbSeparatorType>[]) {
     const last = items.indexOf(item) === items.length - 1;
-    return last ? <span>{item.title}</span> : <Link href={item.href}>{item.title}</Link>;
+    return last ? <span>{item.title}</span> : <Link {...item.href ? { href: item.href } : { href: '/' }}>{item.title}</Link>;
 }
 
 
@@ -45,7 +46,7 @@ const Breadcrumbs: FC<{ style: CSSProperties }> = ({ style }) => {
         })
         console.log(crumblist)
         return [{ href: "/", title: <HomeOutlined /> }, ...crumblist];
-    }, [path, product]);
+    }, [pathList, product]);
     return <Breadcrumb itemRender={itemRender} items={breadcrumbs} style={style} />
 }
 
