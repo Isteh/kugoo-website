@@ -4,7 +4,7 @@ import CatalogIcon from "@/public/catalog.svg"
 import Button from '../../ui/button/button'
 
 const CatalogMenu: FC<{ className?: string }> = ({ className }) => {
-    return <Button className={`${styles.button} ${className}`}> <CatalogIcon className={styles.icon} />Каталог</Button>
+    return <Button style={{ padding: '9px 15px' }} className={`${styles.button} ${className}`}> <CatalogIcon className={styles.icon} />Каталог</Button>
 }
 
 export default CatalogMenu
