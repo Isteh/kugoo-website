@@ -48,11 +48,11 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  z-index: 3;
+  z-index: 4;
   background-color: transparent;
   border-radius: 5px;
-  bottom: 74px;
-  left: 0;
+  top: 95px;
+  left: 15px;
   border: none;
 
   &:hover {
@@ -63,7 +63,7 @@
 
 .swiperButtonRight {
   left: auto;
-  right: 0;
+  right: 15px;
 }
 
 .leftArrow {

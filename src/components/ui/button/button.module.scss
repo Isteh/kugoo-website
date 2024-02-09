@@ -1,14 +1,26 @@
-.button{
-    border: none;
-    background-color: var(--accent-theme-color);
-    font-family: inherit;
-    font-size: 16px;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
+.button {
+  border: none;
+  background-color: var(--Purple);
+  font-family: inherit;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+}
+
+.transparant {
+  background-color: transparent;
+  color: var(--Purple);
+
+  border: 1px solid var(--Purple);
+}
+
+.invertColors {
+  background-color: white;
+  color: var(--Purple);
 }

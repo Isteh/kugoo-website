@@ -43,7 +43,15 @@ const ProductCard: FC<TypeProps> = ({ product, className }) => {
                 product.isNew && <ProductMarker type='new' />}
             <button className={styles.balanceButton}> <BalanceIcon /></button>
         </div>
+        <button className={styles.swiperButton}
+            ref={swiperLeftButton} type='button'>
+            <SwiperRightArrowIcon className={styles.leftArrow} />
+        </button>
 
+        <button className={`${styles.swiperButton} ${styles.swiperButtonRight}`}
+            ref={swiperRightButton} type='button'>
+            <SwiperRightArrowIcon />
+        </button>
         <Swiper
             modules={[Navigation]}
             className={styles.swiper}
@@ -53,15 +61,7 @@ const ProductCard: FC<TypeProps> = ({ product, className }) => {
             }}
             slidesPerView={1}
         >
-            <button className={styles.swiperButton}
-                ref={swiperLeftButton} type='button'>
-                <SwiperRightArrowIcon className={styles.leftArrow} />
-            </button>
 
-            <button className={`${styles.swiperButton} ${styles.swiperButtonRight}`}
-                ref={swiperRightButton} type='button'>
-                <SwiperRightArrowIcon />
-            </button>
 
             <SwiperSlide >
                 <Image src={product.mainImg} width={211} height={211} alt={`Фотография ${product.name}`} />
@@ -79,9 +79,9 @@ const ProductCard: FC<TypeProps> = ({ product, className }) => {
 
 
         </Swiper>
-
+        <Link className={styles.link} href={`/catalog/${product.type}/${product.id}`} />
         <div className={styles.textWrapper}>
-            <Link className={styles.link} href={`/catalog/${product.type}/${product.id}`} />
+
             <Title className={styles.title} level={3}>{product.name}</Title>
             <ul className={styles.characteristicsList}>
                 <li><ChargeIcon />{product.characteristics?.charge} mAh</li>
