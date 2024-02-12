@@ -4,13 +4,14 @@ import { Thumbs } from 'swiper/modules';
 import Image from 'next/image';
 import styles from './galleryWithTumbs.module.scss'
 import './galleryWithTumbs.scss'
-
 import 'swiper/scss';
 import 'swiper/scss/thumbs';
+import { Swiper as swiper } from 'swiper/types';
+
 
 
 const GalleryWithTumbs: FC<{ imgs: string[] }> = ({ imgs }) => {
-    const [thumbsSwiper, setThumbsSwiper] = useState(null);
+    const [thumbsSwiper, setThumbsSwiper] = useState<swiper | null>(null);
 
     return <div className={styles.galleryWrapper}>
         <Swiper className={styles.swiper}
