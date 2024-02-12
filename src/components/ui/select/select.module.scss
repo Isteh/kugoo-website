@@ -1,23 +1,37 @@
-.select{
-    width: fit-content;
-    padding: 6px 24px 6px 14px;
-    border: none;
-    appearance: none;
-    border-radius: 5px;
-    font-family: inherit;
-    
-    background-color: transparent;
-    background-image: url('../../../../public/search-arrow.svg');
-    background-repeat: no-repeat;
-    background-position: right 12px top 13px;
-    position: relative;
-    &::after{
-        content: '';
-        height:7px;
-        width:8px;
-        position: absolute;
-        right: 12px;
-        top: 12px;
-        
-    }
+.label {
+  width: fit-content;
+}
+
+.select {
+  width: min-content;
+  height: 100%;
+  padding: 6px 24px 6px 14px;
+  border: none;
+  appearance: none;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+
+  background-color: transparent;
+
+  background-repeat: no-repeat;
+  background-position: right 12px bottom 50%;
+  position: relative;
+}
+
+.mainText {
+  font-size: 14px;
+}
+.additionalText {
+  font-size: 14px;
+  color: var(--Grey-600);
+}
+
+.mainIcon {
+  background-image: url('/search-arrow.svg');
+}
+
+.additionalIcon {
+  text-transform: lowercase;
+  background-image: url('/additional_select_arrow.svg');
 }

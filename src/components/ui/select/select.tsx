@@ -2,14 +2,24 @@ import { FC } from 'react'
 import styles from './select.module.scss'
 type TypeProps = {
     options: {
-        value: string,
-        title: string ,
+        value: number | string,
+        name: string,
     }[],
     name: string,
+    title?: string,
+    defaultOption?: number | string,
+    styleTheme: 'main' | 'additional'
 }
 
-const Select: FC<TypeProps> = ({ options, name }) => {
-    return <select className={styles.select} name={name}>{options.map((option, index) => <option key={index} value={option.value}>{option.title}</option>)}</select>
+const Select: FC<TypeProps> = ({ options, name, title, defaultOption, styleTheme }) => {
+    return <label className={`${styles.label} ${styles[`${styleTheme}Text`]}`}>
+        {title}
+        <select className={`${styles.select} ${styles[`${styleTheme}Icon`]}`} name={name}>
+            {options.map((option, index) => <option key={index} value={option.value} {...option.value === defaultOption && { selected: true }}>
+                {option.name}
+            </option>)}
+        </select>
+    </label>
 }
 
 export default Select

@@ -1,6 +1,7 @@
 .list {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  text-align: center;
 
   gap: 20px;
 }
@@ -26,7 +27,7 @@
 .button {
   display: none;
 }
-.subtext{
-    font-size: 14px;
-    color: var(--Grey-600);
+.subtext {
+  font-size: 14px;
+  color: var(--Grey-600);
 }

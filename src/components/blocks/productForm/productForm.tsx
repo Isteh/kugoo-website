@@ -1,5 +1,5 @@
 import { IProduct } from '@/src/interfaces/product.interface'
-import { FC, FormEvent, FormEventHandler, memo, useCallback, useEffect, useMemo, useState } from 'react'
+import { FC, FormEventHandler, useState } from 'react'
 import Title from '../../ui/title/title'
 import BalanceIcon from '@/public/balance.svg'
 import ShareIcon from '@/public/share.svg'
@@ -12,72 +12,31 @@ import styles from './productForm.module.scss'
 import Price from '../../ui/price/price'
 import Installments from '../installments/installments'
 import Promotion from '../promotion/promotion'
-import { isNumber } from 'util'
+import { TypeListsProductServices, getServicesList } from '@/src/utils/listsProductServices/listProductSrvices'
+
 
 type TypeProps = {
     product: IProduct,
     className?: string
 }
 
-const complectationList = [
-    {
-        name: 'Базовая',
-        value: 0
-    }
-]
-const guaranteeList = [
-    {
-        name: 'Стандартная 1 год',
-        value: 0
-    }
-]
-const additionalServicesList = [
-    {
-        name: 'Нет',
-        value: 0
-    }
-]
-const colorList = [
-    {
-        name: 'Без упаковки',
-        value: 0,
-
-    },
-    {
-        name: 'Розовый',
-        value: 'pink',
-
-    },
-    {
-        name: 'Синий',
-        value: 'blue',
-
-    },
-    {
-        name: 'Красный',
-        value: 'red',
-
-    }
-]
 
 
 
 const ProductForm: FC<TypeProps> = ({ className, product }) => {
     const addUserCart = useUserCartStore(state => state.addProduct)
-    const usersCart = useUserCartStore(state => state.productsInCartParamethers)
 
     const [totalPrice, setTotalPrice] = useState(product.price.actual);
 
-    if (product) {
-        product.complectation && complectationList.splice(1, Infinity, ...product.complectation);
-        product.guarantee && guaranteeList.splice(1, Infinity, ...product.guarantee)
-        product.additionalServices && additionalServicesList.splice(1, Infinity, ...product.additionalServices)
-    }
+    const colorList = getServicesList('color')
+    const complectationList = getServicesList('complectation', product.complectation)
+    const guaranteeList = getServicesList('guarantee', product.guarantee)
+    const additionalServicesList = getServicesList('additionalServices', product.additionalServices)
 
     const formSubmitHandler: FormEventHandler<HTMLFormElement> = (e) => {
         e.preventDefault();
         const formData = new FormData(e.currentTarget);
-        addUserCart(getDataForCart(Math.random() * (4564786 - -254673) + 4564786,
+        addUserCart(getDataForCart(
             Number(formData.get('id')),
             product.price.actual,
             Number(formData.get('complectation')),
@@ -93,7 +52,6 @@ const ProductForm: FC<TypeProps> = ({ className, product }) => {
             Number(data.get('complectation')) +
             Number(data.get('guarantee')) +
             Number(data.get('additionalServices')))
-        console.log(totalPrice)
     }
 
     return product ? <form name='product-form' onSubmit={formSubmitHandler} onChange={formChangeHandler}>

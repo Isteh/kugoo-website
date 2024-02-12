@@ -1,5 +1,4 @@
 export const getDataForCart = (
-  id: number,
   idProduct: number,
   price: number,
   complectation: number,
@@ -8,12 +7,18 @@ export const getDataForCart = (
   colorWrapper?: string
 ) => {
   return {
-    id: id,
+    id:
+      Math.random() * (4564786 - -254673) +
+      4564786,
     idProduct: idProduct,
     complectation: complectation,
     guarantee: guarantee,
     additionalServices: additionalServices,
     colorWrapper: colorWrapper,
-    fullPrice: price + complectation + guarantee + additionalServices,
+    fullPrice:
+      price +
+      complectation +
+      guarantee +
+      additionalServices,
   };
 };
