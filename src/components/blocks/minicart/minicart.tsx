@@ -42,7 +42,7 @@ const Minicart: FC = () => {
                 </ol>
                 <footer>
                     <span>
-                        Сумма: <Price actualPrice={usersCart.reduce((prev, item) => prev + item.fullPrice, 0)} />
+                        Сумма: <Price size='normal' actualPrice={usersCart.reduce((prev, item) => prev + item.fullPrice, 0)} />
                     </span>
                     <Button >Оформить заказ</Button>
                 </footer>
