@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  align-items: center;
+
+  min-height: 65px;
+  width: 100%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 30px;
+
+  &:hover {
+    background-color: rgba(
+      $color: #000000,
+      $alpha: 0.1
+    );
+    color: inherit;
+  }
+}
+
+.img {
+  background-size: cover;
+
+  margin-right: 12px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.price {
+  margin-right: 15px;
+}
+
+.button {
+  margin-left: auto;
+  border: none;
+  display: flex;
+
+  background-color: transparent;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px 30px;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(
+      $color: #000000,
+      $alpha: 0.1
+    );
+  }
+}

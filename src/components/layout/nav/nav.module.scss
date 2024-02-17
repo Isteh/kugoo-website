@@ -33,5 +33,7 @@
 .search {
   margin-right: auto;
 
-  min-width: 603px;
+  min-width: fit-content;
+  width: 50%;
+  max-width: 603px;
 }

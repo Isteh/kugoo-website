@@ -33,7 +33,14 @@ export const useUserCartStore =
                   if (product.id === id) {
                     let changedPrice =
                       product.fullPrice;
-                    if (!isNaN(Number(value)))
+                    let changedValue:
+                      | string
+                      | number = value;
+                    if (
+                      !isNaN(Number(changedValue))
+                    ) {
+                      changedValue =
+                        Number(changedValue);
                       changedPrice =
                         changedPrice -
                         Number(
@@ -41,10 +48,11 @@ export const useUserCartStore =
                             property as keyof typeof product
                           ]
                         ) +
-                        Number(value);
+                        Number(changedValue);
+                    }
                     return {
                       ...product,
-                      [property]: value,
+                      [property]: changedValue,
                       fullPrice: changedPrice,
                     };
                   }
