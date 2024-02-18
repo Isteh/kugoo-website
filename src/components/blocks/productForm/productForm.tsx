@@ -42,8 +42,9 @@ const ProductForm: FC<TypeProps> = ({ className, product }) => {
             Number(formData.get('complectation')),
             Number(formData.get('guarantee')),
             Number(formData.get('additionalServices')),
-            formData.get('colorWrapper')?.toString()))
-        alert(`${product.name} успешно добавлен в корзину`)
+            1,
+            formData.get('colorWrapper')?.toString())),
+            alert(`${product.name} успешно добавлен в корзину`)
     }
 
     const formChangeHandler: FormEventHandler<HTMLFormElement> = (e) => {

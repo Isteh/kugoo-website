@@ -4,6 +4,7 @@ export const getDataForCart = (
   complectation: number,
   guarantee: number,
   additionalServices: number,
+  quantity: number,
   colorWrapper?: string
 ) => {
   return {
@@ -20,5 +21,6 @@ export const getDataForCart = (
       complectation +
       guarantee +
       additionalServices,
+    quantity: quantity,
   };
 };

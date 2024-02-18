@@ -14,8 +14,10 @@ type TypeProps = {
 const Select: FC<TypeProps> = ({ options, name, title, defaultOption, styleTheme }) => {
     return <label className={`${styles.label} ${styles[`${styleTheme}Text`]}`}>
         {title}
-        <select className={`${styles.select} ${styles[`${styleTheme}Icon`]}`} name={name}>
-            {options.map((option, index) => <option key={index} value={option.value} {...option.value === defaultOption && { selected: true }}>
+        <select
+            className={`${styles.select} ${styles[`${styleTheme}Icon`]}`} name={name}
+            defaultValue={defaultOption}>
+            {options.map((option, index) => <option key={index} value={option.value} >
                 {option.name}
             </option>)}
         </select>

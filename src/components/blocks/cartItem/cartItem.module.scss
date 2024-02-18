@@ -3,8 +3,7 @@
 
   margin-bottom: 30px;
 }
-
-.productDescription {
+.link {
   display: flex;
   gap: 20px;
 
@@ -51,6 +50,37 @@
 .gift {
   color: var(--Grey-600);
   font-size: 12px;
+}
+
+.quantityContainer {
+  display: flex;
+  align-items: center;
+
+  & button {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+
+    color: var(--Grey-600);
+    font-size: 16px;
+
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(
+        $color: #000000,
+        $alpha: 0.1
+      );
+    }
+  }
+}
+
+.quantity {
+  font-size: 16px;
+  padding: 0 10px;
 }
 
 .button {

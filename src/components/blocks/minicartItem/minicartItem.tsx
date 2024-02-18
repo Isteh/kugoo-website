@@ -29,7 +29,7 @@ const MinicartItem: FC<{ item: IProductsInCartParamethers }> = ({ item }) => {
                         <span className={styles.price}>
                             {item.fullPrice} ₽
                         </span>
-                        <span>1 шт.</span>
+                        <span>{item.quantity} шт.</span>
                     </span>
                 </div>
             </Link>

@@ -1,18 +1,20 @@
 import { create } from 'zustand';
 import { IUserCartState } from '../interfaces/UserCartState.interface';
 import { persist } from 'zustand/middleware';
+import { checkDublicate } from '../utils/checkDublicate/checkDublicate';
 
 export const useUserCartStore =
   create<IUserCartState>()(
     persist(
       (set) => ({
         productsInCartParamethers: [],
-        addProduct: (product) =>
+        addProduct: (newProduct) =>
           set((state) => ({
-            productsInCartParamethers: [
-              ...state.productsInCartParamethers,
-              product,
-            ],
+            productsInCartParamethers:
+              checkDublicate(
+                state.productsInCartParamethers,
+                newProduct
+              ),
           })),
         removeProduct: (id) =>
           set((state) => ({
@@ -25,8 +27,18 @@ export const useUserCartStore =
           id,
           property,
           value
-        ) =>
-          set((state) => ({
+        ) => {
+          if (
+            property === 'quantity' &&
+            value === 0
+          )
+            return set((state) => ({
+              productsInCartParamethers:
+                state.productsInCartParamethers.filter(
+                  (product) => product.id != id
+                ),
+            }));
+          return set((state) => ({
             productsInCartParamethers:
               state.productsInCartParamethers.map(
                 (product) => {
@@ -39,16 +51,29 @@ export const useUserCartStore =
                     if (
                       !isNaN(Number(changedValue))
                     ) {
-                      changedValue =
-                        Number(changedValue);
-                      changedPrice =
-                        changedPrice -
-                        Number(
-                          product[
-                            property as keyof typeof product
-                          ]
-                        ) +
-                        Number(changedValue);
+                      if (
+                        property === 'quantity'
+                      ) {
+                        if (changedValue === 0) {
+                        }
+                        changedPrice =
+                          (changedPrice /
+                            product.quantity) *
+                          Number(changedValue);
+                      } else {
+                        changedValue =
+                          Number(changedValue);
+                        changedPrice =
+                          changedPrice -
+                          product.quantity *
+                            Number(
+                              product[
+                                property as keyof typeof product
+                              ]
+                            ) +
+                          product.quantity *
+                            Number(changedValue);
+                      }
                     }
                     return {
                       ...product,
@@ -59,7 +84,8 @@ export const useUserCartStore =
                   return product;
                 }
               ),
-          })),
+          }));
+        },
       }),
       { name: 'UserCartStore', version: 1 }
     )

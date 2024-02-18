@@ -34,7 +34,7 @@ export const defaultListsProductServices: TypeDefaultListsProductServices =
     color: [
       {
         name: 'Без упаковки',
-        value: 0,
+        value: 'none',
       },
       {
         name: 'Розовый',
